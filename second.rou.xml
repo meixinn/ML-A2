@@ -1,0 +1,11 @@
+<routes>
+<vType id="car" length="5.0"  accel= "1.0" decel= "5.0" sigma="0.0" maxSpeed= "100.0" color= "0,1,0" />
+    <route id="route_ns" edges="n_ct ct_s" />
+    <route id="route_ew" edges="e_ct ct_w" />
+    <route id="route_se" edges="s_ct ct_e" />
+    <vehicle depart="1" id="veh0" route="route_ns" type="car" />
+    <vehicle depart="1" id="veh1" route="route_ew" type="car" />
+    <vehicle depart="1" id="veh2" route="route_ew" type="car" />
+    <vehicle depart="1" id="veh3" route="route_ew" type="car" />
+    <vehicle depart="1" id="veh4" route="route_se" type="car" />
+</routes>

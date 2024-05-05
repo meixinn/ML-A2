@@ -1,0 +1,8 @@
+<connections>
+    <connection from="n_ct" to="ct_s"/>
+    <connection from="e_ct" to="ct_w"/>
+    <connection from="s_ct" to="ct_n"/>
+    <connection from="w_ct" to="ct_e"/>
+    <connection from="s_ct" to="ct_e"/>
+    <connection from="w_ct" to="ct_s"/>
+</connections>
