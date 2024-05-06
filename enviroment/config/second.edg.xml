@@ -1,0 +1,10 @@
+<edges>
+	<edge from="n"  to="center_traffic"  id="n_0"  numLanes="1"/>
+	<edge from="center_traffic"  to="n"  id="0_n"  numLanes="1"/>
+	<edge from="s"  to="center_traffic"  id="s_0"  numLanes="1"/>
+	<edge from="center_traffic"  to="s"  id="0_s"  numLanes="1"/>
+	<edge from="w"  to="center_traffic"  id="w_0"  numLanes="1"/>
+	<edge from="center_traffic"  to="w"  id="0_w"  numLanes="1"/>
+	<edge from="e"  to="center_traffic"  id="e_0"  numLanes="1"/>
+	<edge from="center_traffic"  to="e"  id="0_e"  numLanes="1"/>
+</edges>

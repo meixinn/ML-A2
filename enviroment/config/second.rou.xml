@@ -1,0 +1,10 @@
+<routes>
+<vType id="car" length="5.0"  accel= "1.0" decel= "5.0" sigma="0.0" maxSpeed= "100.0" color= "0,1,0" />
+    <route id="route_ns" edges="n_0 0_s" />
+    <route id="route_ew" edges="e_ct 0_w" />
+    <route id="route_se" edges="s_0 0_e" />
+    <flow depart="1" id="veh0" route="route_ns" type="car" begin="0" end="3600" probability="$ns"/>
+    <flow depart="1" id="veh1" route="route_ew" type="car" begin="0" end="3600" probability="$ew"/>
+    <flow depart="1" id="veh2" route="route_se" type="car" begin="0" end="3600" probability="$se"/>
+</routes>
+
