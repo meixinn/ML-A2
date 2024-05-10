@@ -7,6 +7,7 @@ from runner.agent_run import run_agent
 import sys
 import argparse
 
+
 def build_agent(env):
     return DQN(env.observation_space, env.action_space, memory_size=50, replay_size=32)
 
